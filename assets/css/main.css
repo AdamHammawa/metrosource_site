@@ -1323,11 +1323,11 @@ section {
   object-fit: contain;
 }
 
-@media (max-width: 600px){
+/* @media (max-width: 600px){
   .team .member .member-img {
     height: 350px;
   }
-}
+} */
 
 @media (max-width: 1024px) {
   .team .member .member-img {
