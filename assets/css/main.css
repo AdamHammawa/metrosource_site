@@ -731,15 +731,15 @@ section {
 }
 
 .services .service-item .icon {
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .services .service-item .icon i {
   color: var(--color-secondary);
-  font-size: 40px;
+  font-size: 35px;
   transition: ease-in-out 0.3s;
   z-index: 2;
   position: relative;
@@ -764,7 +764,7 @@ section {
   font-weight: 700;
   margin: 0 0 20px 0;
   padding-bottom: 8px;
-  font-size: 22px;
+  font-size: 20px;
   position: relative;
   display: inline-block;
   border-bottom: 4px solid #ebebed;
@@ -777,11 +777,11 @@ section {
   margin-bottom: 0;
 }
 
-.services .service-item .readmore {
+/* .services .service-item .readmore {
   margin-top: 15px;
   display: inline-block;
   color: var(--color-primary);
-}
+} */
 
 .services .service-item:hover .icon:before {
   background: var(--color-primary);
@@ -1114,14 +1114,14 @@ section {
 .alt-services .img-bg {
   background-size: cover;
   background-position: center center;
-  min-height: 400px;
+  min-height: 350px;
 }
 
 .alt-services h3 {
   font-size: 28px;
   font-weight: 700;
   color: var(--color-secondary);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-bottom: 20px;
   position: relative;
 }
@@ -1138,7 +1138,7 @@ section {
 }
 
 .alt-services .icon-box {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .alt-services .icon-box i {
@@ -1147,10 +1147,10 @@ section {
   justify-content: center;
   color: var(--color-primary);
   margin-right: 25px;
-  font-size: 28px;
+  font-size: 26px;
   width: 56px;
   height: 56px;
-  border-radius: 4px;
+  border-radius: 50px;
   line-height: 0;
   box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
   background-color: #fff;
@@ -1316,9 +1316,17 @@ section {
 
 .team .member .member-img {
   margin: 0 80px;
-  border-radius: 50%;
+  border-radius: 50px;
   overflow: hidden;
   position: relative;
+  height: 250px;
+  object-fit: contain;
+}
+
+@media (max-width: 600px){
+  .team .member .member-img {
+    height: 350px;
+  }
 }
 
 @media (max-width: 1024px) {
